@@ -92,8 +92,8 @@ goal = (10, 10)
 # Define the known walls
 walls = set()
 
-# Introduce the bot
-print("hi, my name is A* Bot", flush=True)
+# Introduce the bot#
+# print("hi, my name is A* Bot", flush=True)
 
 # Wait for initial sense data
 time.sleep(0.25)
