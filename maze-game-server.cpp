@@ -30,11 +30,11 @@ using namespace boost::process;
 #define tileH 11
 
 #define renderW 2550
-#define renderH 2550
+#define renderH 2550 
 
 #define frame_ms 600
 #define frame_per_sec 18
-#define gamelimit_sec 100
+#define gamelimit_sec 1000
 #define framelimit (gamelimit_sec*frame_per_sec)
 
 #define gameX(x) (15+x*((renderW-30.0)/tileW))
