@@ -86,7 +86,7 @@ def update_coins():
 def add_coin(coin):
   global saw_coins
   saw_coins |= {coin}
-  Timer(8.0, forget_coin, coin).start() #forget the coin
+  Timer(8.0, forget_coin, kwargs={'coin': coin}).start() #forget the coin
   
 def forget_coin(coin):
   global saw_coins

@@ -5,7 +5,7 @@
 // For use with CS 660/760. All rights reserved.
 //
 
-#include <root@3462d04a3ddb:/workspaces/maze-gamemaze-game-server.hpp>
+#include </root/maze-game/maze-game-server.hpp>
 
 Line::Line(double x0, double y0, double x1, double y1)
     : data{x0, y0, x1, y1}
